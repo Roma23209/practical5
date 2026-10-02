@@ -1,0 +1,5 @@
+data = input("Введите вес (кг) и рост (м): ").split()
+weight = float(data[0])
+height = float(data[1])
+bmi = weight / (height * height)
+print("Ваш ИМТ:", round(bmi, 1))
